@@ -16,10 +16,11 @@ def find_min_in_nested_arrays(src)
               
               
         end 
-        low_temp_results<< min_temp 
+        
        inner_index += 1 
      end 
-      outer_index += 1   
+      outer_index += 1 
+      low_temp_results<< min_temp 
     end 
       low_temp_results
 end 
