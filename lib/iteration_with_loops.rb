@@ -9,10 +9,10 @@ def find_min_in_nested_arrays(src)
         min_temp = 100
         
           while inner_index < src[outer_index].count do
-            
+            low_temp_results<< min_temp 
              if src[outer_index][inner_index]< min_temp
                min_temp = src[outer_index][inner_index]
-              low_temp_results<< min_temp
+           
               
               
         end 
